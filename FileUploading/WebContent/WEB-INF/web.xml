@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>uploadApp</display-name>
+<servlet>
+<servlet-name>upl</servlet-name>
+<servlet-class>com.nt.servlet.FileUploadingServlet</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>upl</servlet-name>
+<url-pattern>/upurl</url-pattern></servlet-mapping>
+</web-app>
